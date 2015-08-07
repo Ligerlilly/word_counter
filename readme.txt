@@ -4,6 +4,11 @@ Returns number of times test word appears in given string, 8/7/2015
 
 Jason Lane
 
+Link:
+
+https://desolate-lowlands-4462.herokuapp.com/
+
+
 Description:
 
 Calling word_counter method on a string object with a string argument returns the number of times argument appears in string object
