@@ -12,7 +12,7 @@ describe("requests to the root path", function(){
   it('returns a HTML format', function(done){
     request(app)
       .get('/')
-      .expect('Content_Type', /html/, done);
+      .expect('Content-Type', /html/, done);
   });
 
   it('returns an index file with Word Counter', function(done){
@@ -22,3 +22,5 @@ describe("requests to the root path", function(){
   });
 
 });
+
+describe('requests to the word_count path', function(){});
