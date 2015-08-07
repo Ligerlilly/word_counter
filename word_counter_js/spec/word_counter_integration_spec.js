@@ -23,4 +23,11 @@ describe("requests to the root path", function(){
 
 });
 
-describe('requests to the word_count path', function(){});
+describe('requests to the word_count path', function(){
+  it('takes a user inputed string and test_word and returns number of instances of test_word in user enter string', function(done){
+    request(app)
+      .post('/word_count')
+      .send({'string': 'hi hi hi', 'test_word': 'hi'})
+      .expect(/3/, done);
+  });
+});
