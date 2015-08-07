@@ -10,4 +10,8 @@ describe( 'String#word_counter', function() {
   it('is case insensitive', function(){
     assert.equal('Hi there'.word_counter('hi'), 1);
   });
+
+  it('works with long strings', function(){
+    assert.equal("If Peter Piper picked a peck of pickled peppers, where's the peck of pickled peppers Peter Piper picked?".word_counter('peck'), 2);
+  });
 });
