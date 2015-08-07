@@ -1,6 +1,6 @@
 Word Counter
 
-Returns number of times test word appears in given string, 8/7/2015
+App returns number of times test word appears in given string. Also includes folder "word_counter_js" containing node.js, express.js and handlebars version of app. 8/7/2015
 
 Jason Lane
 

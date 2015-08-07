@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec/word_counter_integration_spec.js"
+    "test": "mocha spec/word_counter_spec.js"
   },
   "author": "",
   "license": "ISC",
